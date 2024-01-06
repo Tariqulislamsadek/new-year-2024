@@ -4,6 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
 /* header style */
 header{
     background-image: url('./images/banner/banner2.png');
@@ -35,16 +38,69 @@ header{
 }
 
 .title-button{
+    color: #fff;
     background-color: #F15B22;
     width: 100px;
     height: 30px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-top: 12px;
     border-radius: 5%;
+    padding: 8px 22px;
  }
 
- .title-button button{
-    color:black;
-    border: 0;
+ /* 2nd banner styles */
+
+ .banner-section{
+
+    display: flex;
+    background-image: url("./images/person.png");
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 900px;
+
+
+ }
+
+ .class-banner{
+
+    text-align: center;
+
+ }
+
+ .banner-title{
+    padding: 300px 50px 200px 700px;
+ }
+
+ .banner-title-description{
+    margin-top: 5px;
+
+    font-size: 12px;
+ }
+
+ .list{
+    margin-top: 8px;
+    text-align: inline;
+ }
+
+ .list ul{
+
+    text-align: justify;
+    margin-left: 45px;
+ }
+
+ /* main style */
+
+ .plan{
+    display: flex;
+    margin-top: 1000px;
+ }
+
+ .plan-title{
+    text-align: center;
+    padding-left: 400px;
  }
  
+ .img{
+    display: flex;
+    padding-left: 40px;
+ }
