@@ -1,106 +1,47 @@
-*{ 
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+*{
+   margin: 0;
+   padding: 0;
 }
 
-
-
-
-/* header style */
 header{
-    background-image: url('./images/banner/banner2.png');
-     
-    width: 1100px;
-    height: 700px;
-    
+   background-image: url("./images/banner/banner2.png");
+   width: 1350px;
+   height: 660px;
+   vertical-align: middle;
 }
 
-
-.head{
-    text-align: center;
-    padding: 216px 230px 365px 600px;
+.container{
+   text-align: center;
+   padding: 216px 230px 365px 600px;
+   margin-bottom: 5px;
 }
 
-.title{
+.container-title{
 
-    color#151414;
-    font-size: 20px;
-    font-weight: 700;
+   width: 525px;
+   color#151414;
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 8px;
 
 }
 
-.title-description{
-    color: #444343;
-    margin-top: 5px;
-    font-size: 15px;
-    font-weight: 400;
+.container-description{
+   width: 494px;
+   color: #444343;
+   margin-top: 5px;
+   font-size: 15px;
+   font-weight: 400;
+   margin-bottom: 8px;
+
 }
 
-.title-button{
-    color: #fff;
-    background-color: #F15B22;
-    width: 100px;
-    height: 30px;
-    margin-left: 70px;
-    margin-top: 12px;
-    border-radius: 5%;
-    padding: 8px 22px;
- }
-
- /* 2nd banner styles */
-
- .banner-section{
-
-    display: flex;
-    background-image: url("./images/person.png");
-    background-repeat: no-repeat;
-    width: 1100px;
-    height: 900px;
-
-
- }
-
- .class-banner{
-
-    text-align: center;
-
- }
-
- .banner-title{
-    padding: 300px 50px 200px 700px;
- }
-
- .banner-title-description{
-    margin-top: 5px;
-
-    font-size: 12px;
- }
-
- .list{
-    margin-top: 8px;
-    text-align: inline;
- }
-
- .list ul{
-
-    text-align: justify;
-    margin-left: 45px;
- }
-
- /* main style */
-
- .plan{
-    display: flex;
-    margin-top: 1000px;
- }
-
- .plan-title{
-    text-align: center;
-    padding-left: 400px;
- }
- 
- .img{
-    display: flex;
-    padding-left: 40px;
- }
+button{
+   width: 160px;
+   height: 64px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #F15B22;
+   color: white;
+   border: 0;
+}
